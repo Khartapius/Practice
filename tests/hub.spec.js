@@ -15,14 +15,13 @@ test('Checking the Hubtel Food page', async({page, context}) => {
     await page.goto("https://www.hubtel.com/food");
     // Check if the title is correct
     expect(await page.title()).toBe("Hubtel - Food & Beverages");
+    //waiting for the load of the foods
     await page.waitForLoadState('networkidle')
-   const streetFood = await page.locator(".card p-3").first().waitFor();
-
+    const streetFood = await page.locator(".card p-3").first().waitFor();
     const titles = await page.locator("card p-3").allTextContents();
     console.log(titles);
 
     await page.waitForLoadState('networkidle');
-
     await streetFood.click();
     page.pause();
 });
