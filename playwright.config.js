@@ -3,7 +3,7 @@ const { defineConfig, devices } = require('@playwright/test');
 import dotenv from "dotenv";
 
 dotenv.config({
-  path: "./.env",
+  path: "./env/.env",
 });
 /**
  * Read environment variables from file.
