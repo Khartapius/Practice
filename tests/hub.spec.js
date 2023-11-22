@@ -5,11 +5,12 @@ test('Checking the Hubtel Food page', async({page, context}) => {
         {
             name: "consumerAuth",
             value: 
-                process.env.COOKIE,               
+                process.env.HUB_AUTH,               
                 url: "https://hubtel.com/",
         },
     ]);
     await page.goto("https://hubtel.com/food");
+    console.log(process.env.COOKIE);
     
     //Check if the title is correct
     expect(await page.title()).toBe("Hubtel - Find and pay for everyday essentials");
