@@ -1,16 +1,25 @@
-const {test, expect} = require('@playwright/test');
+const {test, expect, request} = require('@playwright/test');
+const loginPayload = {msisdn: process.env.NUMBER, authToken: process.env.AUTH_TOKEN};
 
-test('Checking the Hubtel Food page', async({page, context}) => {
-    await context.addCookies([
-        {
-            name: "consumerAuth",
-            value: 
-                process.env.HUB_AUTH,               
-                url: "https://hubtel.com/",
-        },
-    ]);
+//Api request method
+test.beforeAll( async() =>
+{
+    const apiContext = await request.newContext();
+    const loginResponse = await apiContext.post("https://hubtelappproxy.hubtel.com/api/v1/account/getprofile",
+    {
+        data:loginPayload
+    } )
+    expect(loginResponse.ok()).toBeTruthy();
+    const jsonResponse =  loginResponse.json();
+    const cookie = process.env.AUTH_TOKEN;
+    const token = jsonResponse.cookie;
+   console.log(token);
+});
+
+test('Checking the Hubtel Food page', async({page}) => {
+    
     await page.goto("https://hubtel.com/food");
-    console.log(process.env.COOKIE);
+    console.log(process.env.AUTH_TOKEN);
     
     //Check if the title is correct
     expect(await page.title()).toBe("Hubtel - Find and pay for everyday essentials");
@@ -27,7 +36,6 @@ test('Checking the Hubtel Food page', async({page, context}) => {
     await page.locator("[value='hubtel_wallet']").click();
     await page.getByRole('button', { name: ' PAY NOW '}).click();
     await page.getByRole('link', {name: ' I have paid for this '}).click();
-
     await page.pause();
     // await page.getByText('Add a new location').click();
 
