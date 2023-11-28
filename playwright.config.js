@@ -2,6 +2,7 @@
 const { defineConfig, devices } = require('@playwright/test');
 import dotenv from "dotenv";
 
+
 dotenv.config({
   path: "./env/.env",
 });
@@ -16,6 +17,12 @@ dotenv.config({
  */
 module.exports = defineConfig({
   testDir: './tests',
+
+  /* Maximum time one test can run for. */
+  timeout: 100 * 1000,
+  expect: {
+    timeout: 5000
+  },
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
