@@ -1,0 +1,79 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.1638421100.1701324715",
+      "domain": ".hubtel.com",
+      "path": "/",
+      "expires": 1735884787.32573,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "true",
+      "value": "f_9P75JnKxQJrCiwK5W2",
+      "domain": "qr.hubtel.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "consumerAuth",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9tb2JpbGVwaG9uZSI6IjIzMzI0NzI3ODczOCIsImp0aSI6ImRlZTY1ODNmLTA5ZGUtNGM3Zi1iYjdhLWQwNzM1MDg3MjljZSIsIm5iZiI6MTcwMTMyNDc1MywiZXhwIjoxNzMyODYwNzUzLCJpc3MiOiJodHRwOi8vaHVidGVsLmNvbSIsImF1ZCI6Imh0dHA6Ly9odWJ0ZWwuY29tIn0.a_N4v8LLDESgrvllCcsW3GhhiQ-LqHLBW-DqBC1MdCk",
+      "domain": ".hubtel.com",
+      "path": "/",
+      "expires": 1709964752,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "hubtelUserDetails",
+      "value": "{\"profile\":{\"name\":\"Pius Chiir-Deri\",\"mobileNumber\":\"233247278738\",\"imageUrl\":\"https://consumerdata.hubtel.com/api/Customer/profile/images/239785ccec9e4321ac164d15f137f955.jpg\"},\"isLoggedIn\":true,\"location\":{\"name\":\"Mascot Hotel - Dansoman\",\"latitude\":\"5.5380308\",\"longitude\":\"-0.2599141\",\"userZone\":\"Dansoman - Gbawe\",\"hubtelInZone\":true}}",
+      "domain": ".hubtel.com",
+      "path": "/",
+      "expires": 1709964778,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_6BGPYTBNE1",
+      "value": "GS1.1.1701324726.1.1.1701324845.60.0.0",
+      "domain": ".hubtel.com",
+      "path": "/",
+      "expires": 1735884845.580204,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_HQV2FV7KQV",
+      "value": "GS1.1.1701324714.1.1.1701324845.0.0.0",
+      "domain": ".hubtel.com",
+      "path": "/",
+      "expires": 1735884845.595645,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://hubtel.com",
+      "localStorage": [
+        {
+          "name": "website-data",
+          "value": "{\"website\":{\"homePageData\":{\"version\":1}}}"
+        },
+        {
+          "name": "hubtel-store",
+          "value": "{\"auth\":{\"userAuthToken\":{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9tb2JpbGVwaG9uZSI6IjIzMzI0NzI3ODczOCIsImp0aSI6ImRlZTY1ODNmLTA5ZGUtNGM3Zi1iYjdhLWQwNzM1MDg3MjljZSIsIm5iZiI6MTcwMTMyNDc1MywiZXhwIjoxNzMyODYwNzUzLCJpc3MiOiJodHRwOi8vaHVidGVsLmNvbSIsImF1ZCI6Imh0dHA6Ly9odWJ0ZWwuY29tIn0.a_N4v8LLDESgrvllCcsW3GhhiQ-LqHLBW-DqBC1MdCk\",\"msisdn\":\"233247278738\",\"expiry\":\"\"}},\"service\":{\"consumerFavorites\":[],\"favoriteToDelete\":null,\"ignoredECGMeters\":[]},\"account\":{\"userProfile\":{\"customer\":{\"id\":19571448,\"fullName\":\"Pius Chiir-Deri\",\"legalName\":\"Pius Chiir-Deri\",\"otherName\":\"Pius Chiir-Deri\",\"nickName\":\"Chiir-Deri Pius\",\"handle\":null,\"gratisTierImageUrl\":null,\"gratisTier\":\"5\",\"mobileNumber\":\"233247278738\",\"alternativeMobileNumber\":\"\",\"network\":\"MTN\",\"networkCode\":\"62001\",\"isNewUser\":false,\"email\":\"chemogohpius@gmail.com\",\"gender\":null,\"countryCode\":\"GH\",\"imageUrl\":\"https://consumerdata.hubtel.com/api/Customer/profile/images/239785ccec9e4321ac164d15f137f955.jpg\",\"verifiedId\":\"GHA-713426937-0\",\"verifiedIdType\":\"NationalId\",\"rewardPointScore\":0,\"careForceEnabled\":0,\"birthDate\":null,\"locationLongitude\":\"-0.2599141\",\"locationLatitude\":\"5.5380308\",\"locationImage\":null,\"nameOfLocation\":\"Mascot Hotel - Dansoman\",\"city\":\"Accra\",\"zone\":\"Dansoman - Gbawe\",\"currentStation\":\"Dansoman\",\"fcMs\":\"dSa1onRuS06fdNEuAduydX:APA91bEGBVEfB2hHRZC2TIUvU3CxDbGozukn1r3Z3wSvE8AuOes29ee-ETjBm5KcqE7DvKiY_kYNeCc9MiXDhbjrsLSbF-I67bQjl5EeDDHBeW1SYueySt-czr4HrjubEYGXcpyHomMH\",\"accountVerificationStatus\":\"Approved\",\"accountVerificationNote\":\"Approved\",\"hasUnityAccount\":true,\"unityAccountDate\":\"2023-10-09 06:58:49\",\"unityAccountId\":\"bddfa52135c0441db4570699d2eb13f1\",\"ghqrSettlementType\":\"hubtel\",\"ghqrSettlementProvider\":\"hubtel\",\"ghqrSettlementAccountNumber\":\"233247278738\",\"ghqrSettlementAccountName\":\"Pius Chiir-Deri\",\"ghqrSettlementAccountCity\":null,\"hubtelSalesFCM\":null,\"isHubtelSalesUser\":false,\"ghqrCode\":null,\"bankCode\":null,\"createdAt\":\"2023-10-09 06:58:49\",\"updateAt\":\"2023-11-30 06:13:08\"},\"wallets\":[{\"id\":9579090,\"customerId\":19571448,\"accountName\":\"Pius Chiir-Deri\",\"accountNo\":\"233247278738\",\"type\":\"MOMO\",\"providerId\":\"62001\",\"provider\":\"mtn\",\"providerType\":\"TELCO\",\"status\":\"Active\",\"expiry\":\"**/**\",\"curentBalance\":0,\"availBalance\":0,\"secret\":\"***\",\"countryCode\":\"GH\",\"token\":null,\"note\":\"Awaiting Payment\",\"walletImageUrl\":null,\"isTokenized\":true,\"retryCount\":1,\"hasGateKeeperPass\":false,\"idCardFrontSide\":null,\"idCardBackSide\":null,\"idCardHolderSelfie\":null,\"isDefault\":false,\"isFinanceApproved\":false,\"createdAt\":\"2023-10-30 12:12:28\",\"updateAt\":\"2023-10-30 12:15:53\"},{\"id\":8944104,\"customerId\":19571448,\"accountName\":\"Pius Chiir-Deri\",\"accountNo\":\"233247278738\",\"type\":\"HUBTEL\",\"providerId\":\"Hubtel.Id\",\"provider\":\"Hubtel\",\"providerType\":\"Internal\",\"status\":\"Active\",\"expiry\":\"**/**\",\"curentBalance\":37.02,\"availBalance\":37.02,\"secret\":\"***\",\"countryCode\":\"GH\",\"token\":null,\"note\":null,\"walletImageUrl\":null,\"isTokenized\":true,\"retryCount\":1,\"hasGateKeeperPass\":true,\"idCardFrontSide\":null,\"idCardBackSide\":null,\"idCardHolderSelfie\":null,\"isDefault\":false,\"isFinanceApproved\":false,\"createdAt\":\"2023-10-09 06:58:50\",\"updateAt\":\"2023-10-09 06:58:50\"}]},\"consumerData\":{\"id\":19571448,\"clientId\":0,\"legalName\":\"Pius Chiir-Deri\",\"fullName\":\"Pius Chiir-Deri\",\"otherName\":\"Pius Chiir-Deri\",\"nickName\":\"Chiir-Deri Pius\",\"handle\":null,\"gratisTier\":\"5\",\"email\":\"chemogohpius@gmail.com\",\"gender\":null,\"mobileNumber\":\"233247278738\",\"network\":\"MTN\",\"networkCode\":\"62001\",\"alternativeMobileNumber\":\"\",\"birthDate\":null,\"source\":null,\"imageUrl\":\"https://consumerdata.hubtel.com/api/Customer/profile/images/239785ccec9e4321ac164d15f137f955.jpg\",\"verifiedId\":\"GHA-713426937-0\",\"verifiedIdType\":\"NationalId\",\"type\":null,\"countryCode\":\"GH\",\"currentCountry\":\"GH\",\"referrer\":null,\"createdAt\":\"2023-10-09 06:58:49\",\"updateAt\":\"2023-11-30 06:12:53\",\"rewardPointScore\":0,\"careForceEnabled\":0,\"fcMs\":\"dSa1onRuS06fdNEuAduydX:APA91bEGBVEfB2hHRZC2TIUvU3CxDbGozukn1r3Z3wSvE8AuOes29ee-ETjBm5KcqE7DvKiY_kYNeCc9MiXDhbjrsLSbF-I67bQjl5EeDDHBeW1SYueySt-czr4HrjubEYGXcpyHomMH\",\"twofactorAuth\":false,\"status\":\"Active\",\"momoPreApproval\":false,\"momoPreApprovalDate\":\"0001-01-01 00:00:00\",\"hasUnityAccount\":true,\"unityAccountDate\":\"2023-10-09 06:58:49\",\"unityAccountId\":\"bddfa52135c0441db4570699d2eb13f1\",\"locationLongitude\":\"-0.2599141\",\"locationLatitude\":\"5.5380308\",\"nameOfLocation\":\"Mascot Hotel - Dansoman\",\"locationImage\":null,\"city\":\"Accra\",\"zone\":\"Dansoman - Gbawe\",\"currentStation\":\"Dansoman\",\"isBlacklisted\":false,\"isTrusted\":false,\"accountVerificationStatus\":\"Approved\",\"accountVerificationNote\":\"Approved\",\"hubtelSalesFCM\":null,\"isHubtelSalesUser\":false,\"isBNPLCustomer\":false,\"lengthOfCredit\":0,\"installmentPeriod\":null,\"creditLimit\":0,\"gratisTierImageUrl\":null,\"ghqrSettlementType\":null,\"ghqrSettlementProvider\":null,\"ghqrSettlementAccountNumber\":null,\"ghqrSettlementAccountName\":null,\"ghqrSettlementAccountCity\":null,\"ghqrCode\":null,\"bankCode\":null,\"idCardNumber\":null,\"blacklistNote\":null,\"verifiedAt\":\"0001-01-01 00:00:00\",\"lastKycCheckDate\":\"2023-11-21 08:02:01\",\"deliveries\":[{\"id\":\"4c414e9fa4f1462387f0b0b8739e6a33\",\"mobileNumber\":\"233247278738\",\"name\":\"Mascot Hotel - Dansoman\",\"address\":\"Mascot Hotel - Dansoman\",\"longitude\":\"-0.2599141\",\"latitude\":\"5.5380308\",\"locationImage\":\"5.5380308\",\"zone\":null,\"isDefault\":true,\"createdAt\":\"2023-11-29 13:11:55\"}]},\"consumerDeliveryAddress\":{\"id\":\"4c414e9fa4f1462387f0b0b8739e6a33\",\"mobileNumber\":\"233247278738\",\"name\":\"Mascot Hotel - Dansoman\",\"address\":\"Mascot Hotel - Dansoman\",\"longitude\":\"-0.2599141\",\"latitude\":\"5.5380308\",\"locationImage\":\"5.5380308\",\"zone\":null,\"isDefault\":true,\"createdAt\":\"2023-11-29 13:11:55\"},\"temporalLocation\":{},\"hasBeenPromptedForVerification\":false,\"consumerInZone\":true,\"consumerProfileStatus\":{\"hasSetPIN\":true,\"hasCompletedAccountDetail\":true,\"isVerified\":true,\"hasReceiveMoneyAccount\":true,\"hasWallet\":true,\"hasSendId\":true,\"hasApiKey\":false},\"recentSearches\":[],\"pharmacyRecentSearches\":[],\"foodRecentSearches\":[],\"consumerZone\":\"Dansoman - Gbawe\",\"consumerCity\":\"Accra\",\"closestStation\":\"Dansoman\",\"userStations\":[\"Dansoman\"],\"outOfZoneMessage\":null,\"isQuickCommerceActive\":true,\"killSwitchMessage\":\"We are not processing new orders at this time. Please check back soon.\"},\"insurance\":{\"policies\":[],\"policyInfo\":{},\"insuranceOrderItem\":{}},\"cart\":{\"foodCart\":{\"phoneNumber\":\"233247278738\",\"additionalDeliveryFee\":0,\"additionalDeliveryFeeDescription\":null,\"customerName\":\"\",\"cartTotal\":0,\"cartItemTotalWithDelivery\":0,\"deliveryTotal\":0,\"cartTotalWithDelivery\":0,\"cartTotalWithDeliveryDiscount\":0,\"serviceMarkUpTotal\":0,\"surgeFee\":0,\"isScheduledOrder\":false,\"finalDeliveryFee\":0,\"actualDeliveryFee\":0,\"deliveryDiscountFee\":0,\"cartItems\":[],\"createdAt\":\"2023-11-30T06:13:11.4256806Z\",\"updatedAt\":\"2023-11-30T06:13:11.4256813Z\",\"cartType\":\"restaurantCart\",\"restaurants\":[],\"customerStations\":[],\"cartZone\":null,\"cartStations\":null},\"pharmacyCart\":{\"phoneNumber\":\"233247278738\",\"customerName\":\"\",\"totalAmount\":0,\"deliveryTotalAmount\":0,\"discount\":0,\"totalAmountWithDelivery\":0,\"cartTotal\":0,\"deliveryTotal\":0,\"cartTotalWithDelivery\":0,\"serviceMarkUpTotal\":0,\"surgeFee\":0,\"isScheduledOrder\":false,\"cartItems\":[],\"createdAt\":\"2023-11-30T06:13:12.4024275Z\",\"updatedAt\":\"2023-11-30T06:13:12.4024282Z\",\"cartType\":\"pharmacyCart\",\"pharmacies\":[],\"customerStations\":[],\"cartZone\":null,\"cartStations\":null,\"additionalDeliveryFee\":0,\"additionalDeliveryFeeDescription\":null},\"anythingCart\":{\"phoneNumber\":\"233247278738\",\"customerName\":\"\",\"additionalDeliveryFee\":0,\"additionalDeliveryFeeDescription\":null,\"cartTotal\":0,\"totalAmount\":0,\"deliveryTotal\":0,\"cartTotalWithDelivery\":0,\"totalAmountWithDelivery\":0,\"discount\":0,\"surgeFee\":0,\"isScheduledOrder\":false,\"cartItems\":[],\"createdAt\":\"2023-11-30T06:13:11.8584621Z\",\"updatedAt\":\"2023-11-30T06:13:11.8584628Z\",\"cartType\":\"shopCart\",\"maxWeight\":45000,\"maxSize\":45000,\"customerStations\":[],\"shops\":[],\"cartZone\":null,\"cartStations\":null},\"itemsAreInCart\":false,\"ecommerceCheckoutData\":{\"tipAmount\":0}},\"checkout\":{\"serviceFlowData\":{},\"smsFlowData\":{},\"fees\":[],\"messagingFlowData\":{},\"insuranceData\":{}},\"ecommerce\":{\"ongoingOrders\":[],\"scheduledOrders\":[],\"selectedMainMeal\":{},\"retailerClosedData\":{},\"showRiderNoteTooltip\":true,\"locationNotesAndAlternativeNumbers\":[],\"itemReviewsAndRatings\":{},\"ordersToRate\":[],\"selectedDeliveryLocation\":\"\",\"shopPageCache\":{},\"foodPageCache\":{}},\"messaging\":{\"contactListData\":{},\"messageData\":{},\"featuresData\":{},\"checkoutData\":{}}}"
+        }
+      ]
+    }
+  ]
+}
